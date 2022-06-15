@@ -1,0 +1,144 @@
+/* les varialble */
+:root{
+    --footer-color: rgb(3, 1, 17);
+    --footer-font-color: rgb(209, 200, 200);
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  
+}
+a {
+  text-decoration: none;
+}
+/* Dropdown Button */
+.dropbtn {
+
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline;
+  justify-content: center;
+  border: #ddd;
+  border-radius: 12%;
+  border-style: solid;
+  margin:10px auto;
+  text-align: center;
+  margin-left: 30%; 
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.footer {
+  height: 20vh;
+  background-color: var(--footer-color);
+  color: var(--footer-font-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .asc {
+  color: rgb(84, 206, 84);
+}
+
+.footer li {
+  cursor: pointer;
+  line-height: 1.25rem;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+  position: absolute;
+  top: -30px;
+  left: 0px;
+}
+
+.footer__our-products {
+  padding: 20px;
+  width: 50%;
+  position: relative;
+  height: 20%;
+}
+
+.footer__about {
+  height: 20%;
+  position: relative;
+  padding: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: red;
+}
+
+.main-img{
+  background-image: url("banner_one_car_parts");
+}
+.item {
+  background: #abc;
+  padding: 5px;
+  text-align: center;
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.item img {
+  height: 400px;
+}
+
+@media screen and (max-width: 480px) {
+  .item img {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .item img {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .item img {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .item img {
+    height: 200px;
+  }
+}
